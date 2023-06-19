@@ -1,0 +1,11 @@
+int numInteiro = 5;
+float numFloat = 3.14;
+float resultado = numInteiro + numFloat;
+
+output "O resultado da soma é: " + resultado + "\n";
+
+if (resultado > 10) then
+  output "O resultado é maior que 10\n";
+else
+  output "O resultado não é maior que 10\n";
+end
